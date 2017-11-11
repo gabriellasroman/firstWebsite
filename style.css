@@ -3,9 +3,9 @@ url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 /*
 h1 {
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: 300;
-  font-size: 18 px;
+  font-size: 13 px;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 35px;
@@ -76,7 +76,6 @@ nav li {
 }
 
 nav a {
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font weight: 900;
   text decoration: none;
   text transform: uppercase;
@@ -89,7 +88,7 @@ nav a {
 
 .intro {
   background-image: url(frontpageedited.jpg);
-  padding: 8em 0;
+  padding: 11em 0;
 }
 
 nav a:hover,
