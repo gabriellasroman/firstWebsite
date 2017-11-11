@@ -15,7 +15,7 @@ h1 {
 
 
 * {
-	box-sizing: border-box; /*convenient for padding/sizing*/
+	box-sizing: border-box;
 }
 
 body {
@@ -24,43 +24,11 @@ body {
 	text-align: center;
 }
 
-img { /* responsive for phones */
-  max-width: 100%;
-  height: auto;
-}
-
-.container{
-  width: 95%;
-  margin: 0 auto;
-}
-
-/* typography
-============================= */
-.title{
-  font-size: 2.5rem;
-}
-
-.title span{
-  font-weight: 400;
-  display: block;
-  font-size: .9em;
-}
-
-.button {
-  font-size: 1.5rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-width: 2px;
-  border-style: solid;
-}
-
 /* header
 ============================= */
 
 header {
-	position: absolute;
-  left: 0;
-  right:0;
+	/*position: absolute;*/
 	margin-top: 1em;
 }
 
@@ -81,17 +49,13 @@ nav a {
   text transform: uppercase;
   font-size: 1.2rem;
   padding: .5em;
+  background: pink;
 }
 
 /* intro
 ============================= */
 
 .intro {
-  background-image: url(frontpageedited.jpg);
-  padding: 8em 0;
-}
-
-nav a:hover,
-nav a:focus {
-  color: #DDD;
+  background-image: url(../images/frontpage.jpg);
+  padding: 10em 0;
 }
