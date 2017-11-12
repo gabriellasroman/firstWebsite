@@ -12,8 +12,6 @@ h1 {
   text-align: center;
 }
 
-
-
 * {
 	box-sizing: border-box; /*convenient for padding/sizing*/
 }
@@ -26,11 +24,13 @@ body {
 }
 
 img { /* responsive for phones */
-  max-width: 250px;
-  height: auto;
+  width: auto;
+  height: 380px;
 }
 
-
+#authors div{
+  display: inline-block;
+}
 
 .container{
   width: 95%;
@@ -70,6 +70,11 @@ img { /* responsive for phones */
   color: #232323;
 }
 
+@media (min-width: 60rem) {
+  .button {
+    font-size: 1.5rem;
+  }
+}
 
 
 /* header
@@ -123,6 +128,18 @@ nav a:focus {
 .intro {
   background-image: url(frontpageedited.jpg);
   background-size:cover;
-
   padding: 8em 0;
+}
+
+@media (min-width: 60rem){
+  .intro {
+    height: 100vh; /*fits screen */
+    padding-top: 35vh;
+  }
+}
+
+/* game concept
+============================= */
+.game {
+  padding-bottom: 5em;
 }
