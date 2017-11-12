@@ -149,17 +149,8 @@ nav a:focus {
 
 */
 
-#girl_base {
-  margin-top: 0em;
-	z-index: 1;
-	}
-
-#bubble div{
-	margin-bottom: -100em;
-	z-index: -1;
-}
-
-
+/* game concept: page 3
+============================= */
 
 #page3 {
     background-image: url(cactus.jpg);
@@ -169,7 +160,17 @@ nav a:focus {
     height: 100%;
 }
 
-#page3 .button{
+.gameButton{
   color: black;
   margin-bottom:15px;
+}
+
+/* game concept: page 4
+============================= */
+#page5 {
+    background-image: url(bathroom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
