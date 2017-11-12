@@ -167,6 +167,10 @@ nav a:focus {
   margin-bottom:15px;
 }
 
+#page3 .button {
+	border-color: white;
+}
+
 /* game concept: page 4
 ============================= */
 #page5 {
