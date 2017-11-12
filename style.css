@@ -60,8 +60,8 @@ img { /* responsive for phones */
   border-width: 2px;
   border-style: solid;
   padding: .5em 1.5em; /*left and right em*/
-  color: white;
-  border-color: white;
+  color: black;
+  border-color: black;
 }
 
 .button:hover,
