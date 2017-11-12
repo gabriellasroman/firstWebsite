@@ -26,9 +26,11 @@ body {
 }
 
 img { /* responsive for phones */
-  max-width: 100%;
+  max-width: 250px;
   height: auto;
 }
+
+
 
 .container{
   width: 95%;
