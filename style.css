@@ -140,11 +140,26 @@ nav a:focus {
 
 /* game concept
 ============================= */
-#animations1 div {
+
+/*
+.animations1 div {
   padding-top: 8em;
-  display: inline;
-  left: 0px;
+  display: inline-block;
 }
+
+*/
+
+#girl_base {
+  margin-top: 0em;
+	z-index: 1;
+	}
+
+#bubble div{
+	margin-bottom: -100em;
+	z-index: -1;
+}
+
+
 
 #page3 {
     background-image: url(cactus.jpg);
