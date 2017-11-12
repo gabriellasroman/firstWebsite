@@ -140,8 +140,9 @@ nav a:focus {
 
 /* game concept
 ============================= */
-#page3 div {
+#animations1 div {
   padding-top: 8em;
+  display: inline;
   left: 0px;
 }
 
