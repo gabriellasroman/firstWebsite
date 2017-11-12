@@ -140,6 +140,20 @@ nav a:focus {
 
 /* game concept
 ============================= */
-.game {
-  padding-bottom: 5em;
+#page3 div {
+  padding-top: 8em;
+  left: 0px;
+}
+
+#page3 {
+    background-image: url(cactus.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#page3 .button{
+  color: black;
+  margin-bottom:15px;
 }
